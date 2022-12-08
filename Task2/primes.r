@@ -2,6 +2,7 @@ n = as.integer(readline(prompt = "Enter a number:"))
 
 f = 1
 
+# %% is modulus opearator in R
 for(i in 2:sqrt(n)){
   if(n%%i==0 && i!=2){
     f=0

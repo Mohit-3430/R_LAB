@@ -10,7 +10,7 @@ print_facotrs = function(n)
       if(n %/% i == i){
         print(i)
       }else {
-        print(paste(i, ",", n/i))
+        print(paste(i, "|", n/i))
       }
     }
     
