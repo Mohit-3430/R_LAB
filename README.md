@@ -93,3 +93,21 @@ table() function in R Language is used to create a categorical representation of
 - Addition -> +
 - Multiplication -> %\*%
 </details>
+
+<details>
+<summary>Task-7 & Task-8</summary>
+
+## Dataframe
+
+- Data Frames are data displayed in a format as a table.
+- data.frame() function to creates a data frame:
+- summary() function to summarize the data from a Data Frame, returns a table
+- dim() gives dimmensions
+
+#### Access Items
+
+- "[]" use index
+- "[[]]" use column name
+- "$" via column name
+
+</details>
