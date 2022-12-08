@@ -111,3 +111,15 @@ table() function in R Language is used to create a categorical representation of
 - "$" via column name
 
 </details>
+
+<details>
+<summary>Task-9</summary>
+
+`read.csv()`
+
+- ncol()
+- nrow()
+- dim()
+- which(): The which function in R returns the position of the values in the logical vector.
+
+</details>
