@@ -122,4 +122,21 @@ table() function in R Language is used to create a categorical representation of
 - dim()
 - which(): The which function in R returns the position of the values in the logical vector.
 
+- subset() Subsetting in R is a useful indexing feature for accessing object elements. It can be used to select and filter variables and observations.
+
+</details>
+
+<details>
+<summary>Task-10</summary>
+
+[Link](https://datacarpentry.org/R-ecology-lesson/04-visualization-ggplot2.html#Plotting_with_ggplot2)
+
+</details>
+
+<details>
+<summary>Task-11 & 12</summary>
+
+[Original](https://www.geeksforgeeks.org/simple-linear-regression-using-r/#:~:text=Linear%20Regression%3A%20It%20is%20a,two%20types%20of%20linear%20regression.)
+[Link](https://www.datacamp.com/tutorial/linear-regression-R)
+
 </details>
