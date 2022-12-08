@@ -53,6 +53,39 @@ multiarray
 </details>
 
 <details>
+<summary>Task-5</summary>
+
+## Normal Distribution
+
+Normal Distribution is a probability function used in statistics that tells about how the data values are distributed
+
+```
+rnorm() is a function in R programming is used to generate a vector of random numbers which are normally distributed.
+
+syntax of rnorm(n, mean, sd):
+n -> no of obersvations
+```
+
+**Note:** floor() function takes up the vector as an argument and rounds down all the values of that vector without decimal places, so as no decimal values left
+
+## Table in r
+
+table() function in R Language is used to create a categorical representation of data with variable name and the frequency in the form of a table.
+
+`table(x)`
+
+- for further manipulation, it is best if table is converted to dataframe.
+
+## plot
+
+`plot(x, y) `
+`plot(y, type)`
+
+- line -> type='l'
+
+</details>
+
+<details>
 <summary>Task-6</summary>
 
 ## Matrix Operations:
