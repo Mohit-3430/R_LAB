@@ -16,7 +16,7 @@ t.test(x, y)
 x <- rnorm(100)
 
 # Directional hypothesis testing
-t.test(x, mu = 2, alternative = 'greater')
+t.test(x, mu = 2, alternative = "greater")
 
 
 # Define vector
@@ -34,4 +34,3 @@ wilcox.test(x, y)
 
 # Using mtcars dataset in R
 cor.test(mtcars$mpg, mtcars$hp)
-link2=https://www.geeksforgeeks.org/hypothesis-testing-in-r-programming/

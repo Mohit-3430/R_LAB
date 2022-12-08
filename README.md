@@ -131,6 +131,10 @@ table() function in R Language is used to create a categorical representation of
 
 [Link](https://datacarpentry.org/R-ecology-lesson/04-visualization-ggplot2.html#Plotting_with_ggplot2)
 
+## T-Test
+
+[link](https://www.geeksforgeeks.org/hypothesis-testing-in-r-programming/)
+
 </details>
 
 <details>
