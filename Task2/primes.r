@@ -1,17 +1,25 @@
-n = as.integer(readline(prompt = "Enter a number:"))
+n <- as.integer(readline(prompt = "Enter a number:"))
 
-f = 1
 
 # %% is modulus opearator in R
-for(i in 2:sqrt(n)){
-  if(n%%i==0 && i!=2){
-    f=0
-    break
+prime_f <- function(n) {
+  if (n <= 1) {
+    print("INVALID")
+    return(NULL)
+  }
+
+  f <- TRUE
+  for (i in 2:sqrt(n)) {
+    if (n %% i == 0 && i != 2) {
+      f <- FALSE
+      break
+    }
+  }
+  if (f) {
+    print("prime")
+  } else {
+    print("Not Prime")
   }
 }
 
-if(f==1){
-  print("prime")
-}else{
-  print("Not Prime")
-}
+prime_f(n)
