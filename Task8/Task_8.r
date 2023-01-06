@@ -7,4 +7,4 @@ name <- c("AA", "BB", "CC", "DD", "EE")
 df <- data.frame(name = name, empid = id, empsal = sal, department = dept)
 print(df)
 
-print(class(summary(df)))
+print((summary(df)))
