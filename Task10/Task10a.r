@@ -26,15 +26,18 @@ data(mtcars)
 library(tidyverse)
 print(head(mtcars))
 # bar
-ggplot(mtcars, aes(x = gear)) + geom_bar()
+ggplot(mtcars, aes(x = gear)) +
+    geom_bar()
 # bar flip
-ggplot(mtcars, aes(x = gear)) + geom_bar() + coord_flip()
+ggplot(mtcars, aes(x = gear)) +
+    geom_bar() +
+    coord_flip()
 
-ggplot(mtcars, aes(x=hp, y=mpg)) + 
+ggplot(mtcars, aes(x = hp, y = mpg)) +
     geom_point(color = "blue") +
-    stat_summary(fun.y = "mean", geom = "line", linetype = "dashed")
+    stat_summary(fun.y = "mean", geom = "line")
 
-ggplot(mtcars, aes(x=hp, y=mpg)) +
+ggplot(mtcars, aes(x = hp, y = mpg)) +
     geom_point(color = "blue") +
     geom_rug(show.legend = FALSE) +
     stat_summary(fun.y = "mean", geom = "line", linetype = "dashed")
@@ -46,7 +49,7 @@ ggplot(mtcars, aes(x = mpg)) +
 ggplot(mtcars, aes(x = as.factor(cyl), y = mpg)) +
     geom_boxplot()
 # Violin Plot
-ggplot(mtcars, aes(x=factor(cyl), y=mpg)) +
+ggplot(mtcars, aes(x = factor(cyl), y = mpg)) +
     geom_violin(aes(fill = cyl))
 # Pie Chart
 ggplot(mtcars, aes(x = "", y = mpg, fill = cyl)) +
