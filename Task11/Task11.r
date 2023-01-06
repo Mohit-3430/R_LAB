@@ -4,9 +4,6 @@ dataset <- read.csv(path)
 dim(dataset)
 head(dataset)
 
-dataset$Salary
-dataset$YearsExperience
-
 # Training set and Test set
 library(caTools)
 split <- sample.split(dataset$Salary, SplitRatio = 0.7)
